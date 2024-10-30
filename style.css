@@ -1,0 +1,130 @@
+body {
+    background-color: #F1F2F6;
+    font-family: "Lora", serif;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    font-weight: 520;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	
+	
+}
+
+img {
+	width: 200px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+h2 {
+    font-weight: 750;
+    font-size: 25px;
+    text-align: center;
+	
+	
+}
+
+h1, H2 {
+	font-family: "Roboto", sans-serif;
+	color: #247BA0;
+}
+
+p {
+    letter-spacing: 0px;
+    text-align: center;
+    color: #58355E;
+}
+
+
+
+a {
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: 0px;
+	color: #0091ff;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: red;
+}
+
+ul {
+	text-align: center;
+	letter-spacing: 0px;
+}
+
+
+/*custon design with class */
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.box-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(O,0,0,0.1);
+	border-radius: 6px;
+	margin: 20px 0px;
+}
+
+.img-rounded{
+	border-radius: 60px;
+}
+
+.btn-blue{
+	background-color: #0091ff;
+	color: white;
+	padding: 10px 15px;
+	display: inline-block;
+	border-radius: 6px;
+	font-size: 13.5px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 45px;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
